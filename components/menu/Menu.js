@@ -58,9 +58,6 @@ const Menu = () => {
                         <CloseIcon fontSize="large" />
                     </CloseIconContainer>
                     <MenuItemContainert>
-                        <Link href="/">
-                            <MenuItem>O nas</MenuItem>
-                        </Link>
                         <Link href="strony-www">
                             <MenuItem>Strony WWW</MenuItem>
                         </Link>
@@ -69,11 +66,11 @@ const Menu = () => {
                                 Pozycjonowanie
                             </MenuItem>
                         </Link>
-                        <Link href="kontakt">
-                            <MenuItem>Kontakt</MenuItem>
-                        </Link>
                         <Link href="realizacje">
                             <MenuItem>Realizacje</MenuItem>
+                        </Link>
+                        <Link href="kontakt">
+                            <MenuItem>Kontakt</MenuItem>
                         </Link>
                     </MenuItemContainert>
                 </SideMenu>
@@ -109,11 +106,6 @@ const Menu = () => {
                         </MenuLogo>
                         <MenuItemsContainerDesktop>
                             <MenuItemDesktop>
-                                <Link href="/">
-                                    O nas
-                                </Link>
-                            </MenuItemDesktop>
-                            <MenuItemDesktop>
                                 <Link href="strony-www">
                                     Strony WWW
                                 </Link>
@@ -124,13 +116,13 @@ const Menu = () => {
                                 </Link>
                             </MenuItemDesktop>
                             <MenuItemDesktop>
-                                <Link href="kontakt">
-                                    Kontakt
+                                <Link href="realizacje">
+                                    Realizacje
                                 </Link>
                             </MenuItemDesktop>
                             <MenuItemDesktop>
-                                <Link href="realizacje">
-                                    Realizacje
+                                <Link href="kontakt">
+                                    Kontakt
                                 </Link>
                             </MenuItemDesktop>
 
