@@ -6,13 +6,12 @@ export const HeroContainer = styled.div`
     justify-content: center;
     color: white;
     flex-direction: column;
-    margin-bottom: 22px;
+    margin-bottom: 50px;
 
 `
 
 export const HeroText = styled.h1`
     font-size: 72px;
-    word-break: break-all;
     text-align: left;
     line-height: 1.3;
     @media (max-width: 768px){

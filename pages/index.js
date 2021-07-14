@@ -47,7 +47,9 @@ export default function Home() {
             </Head>
             <Menu />
             <div>
-                <Hero2 />
+                <Hero2
+                    title1={api.HeroTitle1}
+                    title2={api.HeroTitle2} />
                 {/* <Hero
                     title1={api.HeroTitle1}
                     title2={api.HeroTitle2}

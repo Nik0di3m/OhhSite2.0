@@ -14,5 +14,7 @@ export const ButtonContainer = styled.div`
     }
     @media (max-width: 640px){
         font-size: 16px;
+        display: flex;
+        flex-direction: column;
     }
 `

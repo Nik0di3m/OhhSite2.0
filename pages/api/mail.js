@@ -6,19 +6,19 @@ export default async (req, res) => {
     const { mail, email, messege, name, temat } = req.body;
     console.log(req.body);
     const transporter = nodemailer.createTransport({
-        host: "smtp.gmail.com",
+        host: "mail-serwer67562.lh.pl",
         port: 465,
         secure: true,
         auth: {
-            user: "nikodem.waleszczyk@gmail.com",
+            user: "kontakt@ohhsite.com",
             pass: process.env.MAIL_PASS,
         },
     });
 
     try {
         const emailRes = await transporter.sendMail({
-            from: "nikodem.waleszczyk@gmail.com",
-            to: "nikodem.waleszczyk@gmail.com",
+            from: "kontakt@ohhsite.com",
+            to: "kontakt@ohhsite.com",
             subject: `From`,
             html: `<p>Imię: ${name}</p> <p>Email: ${email}</p><p>Temat: ${temat}</p><p>Wiadomość: ${messege}</p>`,
         });

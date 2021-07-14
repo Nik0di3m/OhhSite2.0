@@ -14,4 +14,7 @@ export const ContactButtonContainer = styled(motion.div)`
     border-radius: 999px;
     background-color: #24cee5;
     cursor: pointer;
+    @media(max-width: 768px){
+        right: 30px;
+    }
 `

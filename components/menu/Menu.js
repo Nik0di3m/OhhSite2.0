@@ -58,7 +58,7 @@ const Menu = () => {
                         <CloseIcon fontSize="large" />
                     </CloseIconContainer>
                     <MenuItemContainert>
-                        <Link href="o-nas">
+                        <Link href="/">
                             <MenuItem>O nas</MenuItem>
                         </Link>
                         <Link href="strony-www">
@@ -74,11 +74,6 @@ const Menu = () => {
                         </Link>
                         <Link href="realizacje">
                             <MenuItem>Realizacje</MenuItem>
-                        </Link>
-                        <Link href="dodatkowe-uslugi">
-                            <MenuItem>
-                                Dodatkowe usługi
-                            </MenuItem>
                         </Link>
                     </MenuItemContainert>
                 </SideMenu>
@@ -114,7 +109,7 @@ const Menu = () => {
                         </MenuLogo>
                         <MenuItemsContainerDesktop>
                             <MenuItemDesktop>
-                                <Link href="o-nas">
+                                <Link href="/">
                                     O nas
                                 </Link>
                             </MenuItemDesktop>
@@ -138,11 +133,7 @@ const Menu = () => {
                                     Realizacje
                                 </Link>
                             </MenuItemDesktop>
-                            <MenuItemDesktop>
-                                <Link href="dodatkowe-uslugi">
-                                    Dodatkowe usługi
-                                </Link>
-                            </MenuItemDesktop>
+
                         </MenuItemsContainerDesktop>
                     </MenuContainerDesktop>
                     <SocialWrapper>
@@ -164,8 +155,8 @@ const Menu = () => {
                         </SocialIconsContainer>
                         <PhoneContainer>
                             <PhoneIcon style={{ height: 24, marginRight: 10 }} />
-                            <a href="tel:+48987654321">
-                                987 654 321
+                            <a href="tel:+48508431649">
+                                508431649
                             </a>
                         </PhoneContainer>
                     </SocialWrapper>
