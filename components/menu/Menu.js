@@ -98,11 +98,9 @@ const Menu = () => {
                 <MenuContainerDesktop2>
                     <MenuContainerDesktop>
                         <MenuLogo>
-                            <Link href="/">
-                                <a>
-                                    <img src="images/logo.svg" />
-                                </a>
-                            </Link>
+                            <a href="/" style={{ display: 'flex', alignItems: 'center' }}>
+                                <img src="images/logo.svg" style={{ objectFit: 'contain' }} />
+                            </a>
                         </MenuLogo>
                         <MenuItemsContainerDesktop>
                             <MenuItemDesktop>
