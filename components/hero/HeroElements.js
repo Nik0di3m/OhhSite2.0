@@ -5,7 +5,6 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     color: white;
-    min-height: calc(100vh - 60px);
     max-width: 1536px;
     margin: 0 auto;
 
@@ -41,7 +40,7 @@ export const HeroText = styled(motion.div)`
 `;
 
 export const HeroTextH1 = styled.h1`
-    font-size: 96px;
+    font-size: 72px;
     @media (max-width: 992px) {
         font-size: 48px;
     }
@@ -51,7 +50,7 @@ export const HeroTextH1 = styled.h1`
 `;
 
 export const HeroGradient = styled.h1`
-    font-size: 92px;
+    font-size: 72px;
     color: #24cee5;
     @media (max-width: 992px) {
         margin-top: -10%;

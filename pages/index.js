@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import axios from "../axios";
 import Wrapper from "../components/wrapper/Wrapper";
 import ContactButton from "../components/utils/ContactButton";
+import Hero2 from "../components/hero2/Hero2";
 
 export default function Home() {
     const [api, setApi] = useState([]);
@@ -46,14 +47,15 @@ export default function Home() {
             </Head>
             <Menu />
             <div>
-                <Hero
+                <Hero2 />
+                {/* <Hero
                     title1={api.HeroTitle1}
                     title2={api.HeroTitle2}
                     text={api.HeroDesc}
                     adstitle1={api.ReklamaTitle1}
                     adstitle2={api.ReklamaTitle2}
                     adstext={api.ReklamaDesc}
-                />
+                /> */}
 
                 <div
                     style={{

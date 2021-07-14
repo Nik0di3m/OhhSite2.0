@@ -42,6 +42,9 @@ export const AdsText = styled(motion.div)`
         justify-content: center;
         align-items: center;
     }
+    @media (max-width: 1280px) and (min-width: 768px){
+        margin-top: -10%;
+    }
 `;
 export const AdsTextH1 = styled.h1`
     font-size: 72px;
