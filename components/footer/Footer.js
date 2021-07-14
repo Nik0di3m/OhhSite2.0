@@ -57,12 +57,12 @@ const Footer = () => {
                     </FooterItem>
                     <FooterItem>
                         <Link href="strony-www">
-                            Projektowanie stron
+                            Projektowanie stron Białystok
                         </Link>
                     </FooterItem>
                     <FooterItem>
                         <Link href="pozycjonowanie">
-                            Reklama w internecie
+                            Pozycjonowanie stron Białystok
                         </Link>
                     </FooterItem>
                 </RightSideFooter>
