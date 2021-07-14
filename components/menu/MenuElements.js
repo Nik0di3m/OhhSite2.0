@@ -19,17 +19,23 @@ export const MenuContainer = styled.nav`
     display: flex;
     align-items: center;
     padding: 6px;
-    justify-content: space-between;
+    justify-content: center;
     border-bottom: 1px solid #313131;
     -webkit-box-shadow: 0px 0px 15px 7px #000000;
     box-shadow: 0px 0px 15px 7px #000000;
+    position: relative;
 `;
 
-export const MenuLogo = styled.div``;
+export const MenuLogo = styled.div`
+display: flex;
+align-items: center;
+`;
 
 export const MenuHamburger = styled(motion.div)`
     color: white;
     display: flex;
+    position: absolute;
+    right: 10px;
 `;
 
 export const SideMenu = styled(motion.div)`

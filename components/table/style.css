@@ -29,4 +29,7 @@
     .divTable{
         font-size: 8px;
     }
+    .divTableCell, .divTableHead{
+      padding: 8px;
+    }
 }

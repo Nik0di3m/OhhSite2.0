@@ -56,4 +56,7 @@ export const FooterCopy = styled.div`
 `;
 export const CompanyInfo = styled.div`
     color: white;
+    @media (max-width: 992px) {
+        margin-bottom: 60px;
+    }
 `;

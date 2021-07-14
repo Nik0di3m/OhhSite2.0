@@ -30,6 +30,8 @@ export const ContantContent = styled(motion.div)`
     flex-direction: column;
     @media (max-width: 992px) {
         text-align: center;
+        min-height: 75vh;
+        justify-content: center;
     }
 `;
 export const ContactH1 = styled.h1`
