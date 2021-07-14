@@ -23,8 +23,6 @@ export default function Home() {
 
     useEffect(() => {
         getAPI();
-        console.log(api);
-        console.log(api.MetaTitle);
     }, []);
     return (
         <div>

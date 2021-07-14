@@ -20,7 +20,6 @@ export default function Home() {
         await axios
             .get("/home")
             .then((res) => {
-                console.log(res);
                 setApi(res.data);
             })
             .catch((err) => console.log(err));
@@ -28,8 +27,6 @@ export default function Home() {
 
     useEffect(() => {
         getAPI();
-        console.log(api);
-        console.log(api.MetaTitle);
     }, []);
     return (
         <div>

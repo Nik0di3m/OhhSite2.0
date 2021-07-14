@@ -13,7 +13,6 @@ export default function Home() {
         await axios
             .get("/strony-www")
             .then((res) => {
-                console.log(res);
                 setApi(res.data);
             })
             .catch((err) => console.log(err));
@@ -21,8 +20,6 @@ export default function Home() {
 
     useEffect(() => {
         getAPI();
-        console.log(api);
-        console.log(api.AnswerTitle1);
     }, []);
     return (
         <div>
