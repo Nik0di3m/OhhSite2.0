@@ -77,7 +77,7 @@ const Menu = () => {
                 <MenuContainer>
                     <MenuLogo>
                         <Link href="/">
-                            <a>
+                            <a style={{ display: 'flex' }}>
                                 <img src="images/logo.svg" />
                             </a>
                         </Link>
