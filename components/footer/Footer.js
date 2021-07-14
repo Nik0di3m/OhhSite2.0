@@ -68,10 +68,7 @@ const Footer = () => {
                 </RightSideFooter>
                 <CompanyInfo>
                     Clever Way Martyna Prybicho <br />
-                    NIP: 9662148901 <br />
-                    Adres:<br />
-                    ul. Jesiennych Liści 81<br />
-                    16-070 Porosły, Polska
+                    NIP: 9662148901
                 </CompanyInfo>
             </FooterContent>
             <FooterCopy>© OhhSite. 2021</FooterCopy>
