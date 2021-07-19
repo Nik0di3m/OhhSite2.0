@@ -38,7 +38,7 @@ const Realizacje = () => {
                 </RealizacjeTitle>
                 <RealizacjeImages>
                     <Link href="https://as-rent.pl">
-                        <a target="_blank">
+                        <a target="_blank" rel="noopener">
                             <ImgaeOverlay>
                                 <Image
                                     src="/images/as-rent.png"
@@ -53,7 +53,7 @@ const Realizacje = () => {
                         </a>
                     </Link>
                     <Link href="https://tas-bialystok.pl/">
-                        <a target="_blank">
+                        <a target="_blank" rel="noopener">
                             <ImgaeOverlay>
                                 <Image
                                     src="/images/tas.png"
@@ -68,7 +68,7 @@ const Realizacje = () => {
                         </a>
                     </Link>
                     <Link href="https://gingergarage.pl/">
-                        <a target="_blank">
+                        <a target="_blank" rel="noopener">
                             <ImgaeOverlay>
                                 <Image
                                     src="/images/ginger.png"
