@@ -37,7 +37,7 @@ const ImageAnimation = () => {
                 hidden: { opacity: 0, scale: 0 },
             }}
         >
-            <img src="images/vector-creator.svg" />
+            <img src="images/vector-creator.svg" alt="Reklama w internecie, pozycjonowanie stron internetowych" />
         </ImageContainer>
     );
 };

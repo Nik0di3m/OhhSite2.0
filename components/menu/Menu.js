@@ -78,7 +78,7 @@ const Menu = () => {
                     <MenuLogo>
                         <Link href="/">
                             <a style={{ display: 'flex' }}>
-                                <img src="images/logo.svg" />
+                                <img src="images/logo.svg" alt="Logo firmy Ohhsite" />
                             </a>
                         </Link>
                     </MenuLogo>
@@ -99,7 +99,7 @@ const Menu = () => {
                     <MenuContainerDesktop>
                         <MenuLogo>
                             <a href="/" style={{ display: 'flex', alignItems: 'center' }}>
-                                <img src="images/logo.svg" style={{ objectFit: 'contain' }} />
+                                <img src="images/logo.svg" style={{ objectFit: 'contain' }} alt="Logo firmy Ohhsite" />
                             </a>
                         </MenuLogo>
                         <MenuItemsContainerDesktop>

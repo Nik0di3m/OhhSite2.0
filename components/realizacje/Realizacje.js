@@ -44,6 +44,7 @@ const Realizacje = () => {
                                     src="/images/as-rent.png"
                                     width="450"
                                     height="250"
+                                    alt="Przykładowe realizacje stron internetowych"
                                 />
                                 <Overlay>
                                     <p>as-rent.pl</p>
@@ -58,6 +59,7 @@ const Realizacje = () => {
                                     src="/images/tas.png"
                                     width="450"
                                     height="250"
+                                    alt="Przykładowe realizacje stron internetowych"
                                 />
                                 <Overlay>
                                     <p>tas-bialystok.pl</p>
@@ -72,6 +74,7 @@ const Realizacje = () => {
                                     src="/images/ginger.png"
                                     width="450"
                                     height="250"
+                                    alt="Przykładowe realizacje stron internetowych"
                                 />
                                 <Overlay>
                                     <p>gingergarage.pl</p>
