@@ -81,7 +81,7 @@ const Contact = ({ title, text, phone, mail }) => {
                         variants={animationVariants}
                         exit={{ display: "none" }}
                     >
-                        <img src="images/samolocik.svg" />
+                        <img src="images/samolocik.svg" alt='animacja samolotu' />
                     </PlaneAnimation>
                 </AnimatePresence>
             </PlaneContainer>
