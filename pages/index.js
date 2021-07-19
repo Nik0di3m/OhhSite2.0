@@ -14,20 +14,10 @@ import Wrapper from "../components/wrapper/Wrapper";
 import ContactButton from "../components/utils/ContactButton";
 import Hero2 from "../components/hero2/Hero2";
 
-export default function Home() {
-    const [api, setApi] = useState([]);
-    const getAPI = async () => {
-        await axios
-            .get("/home")
-            .then((res) => {
-                setApi(res.data);
-            })
-            .catch((err) => console.log(err));
-    };
+export default function Home({ api }) {
 
-    useEffect(() => {
-        getAPI();
-    }, []);
+    console.log(api)
+
     return (
         <div>
             <Head>
@@ -98,4 +88,17 @@ export default function Home() {
             </div>
         </div >
     );
+}
+export async function getStaticProps() {
+    // Call an external API endpoint to get posts
+    const res = await fetch('https://ohhsite.herokuapp.com/home')
+    const api = await res.json()
+
+    // By returning { props: { posts } }, the Blog component
+    // will receive `posts` as a prop at build time
+    return {
+        props: {
+            api,
+        },
+    }
 }
