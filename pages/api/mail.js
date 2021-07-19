@@ -16,15 +16,18 @@ export default async (req, res) => {
     });
 
     try {
-        const emailRes = await transporter.sendMail({
+        transporter.sendMail({
             from: "kontakt@ohhsite.com",
             to: "kontakt@ohhsite.com",
             subject: `From`,
             html: `<p>Imię: ${name}</p> <p>Email: ${email}</p><p>Temat: ${temat}</p><p>Wiadomość: ${messege}</p>`,
-        });
+        })
         console.log("email sent");
+
     } catch (error) {
         console.log(error);
     }
     res.status(200).json(req.body);
 };
+
+
