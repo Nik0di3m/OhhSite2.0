@@ -130,14 +130,14 @@ const Menu = () => {
                         <SocialIconsContainer>
                             <SocialIcon>
                                 <Link href="https://facebook.com">
-                                    <a target="_blank">
+                                    <a target="_blank" rel="noopener">
                                         <img src="images/facebook.svg" />
                                     </a>
                                 </Link>
                             </SocialIcon>
                             <SocialIcon>
                                 <Link href="https://instagram.com">
-                                    <a target="_blank">
+                                    <a target="_blank" rel="noopener">
                                         <img src="images/instagram.svg" />
                                     </a>
                                 </Link>
