@@ -16,7 +16,6 @@ import Hero2 from "../components/hero2/Hero2";
 
 export default function Home({ api }) {
 
-    console.log(api)
 
     return (
         <div>

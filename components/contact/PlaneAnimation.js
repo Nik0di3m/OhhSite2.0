@@ -31,7 +31,7 @@ const PlaneAnimation = () => {
             transition={{ duration: 0.3 }}
             variants={animationVariants}
         >
-            <img src="images/samolocik.svg" alt="animacja samolotu" />
+            <img src="images/samolocik.svg" alt="animacja samolotu" width="110" height="110" />
         </Animation>
     );
 };
