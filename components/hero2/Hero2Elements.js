@@ -25,7 +25,7 @@ export const HeroText = styled.h1`
 export const HeroText2 = styled.div`
     font-size: 32px;
     letter-spacing: -0.1rem;
-    color: #555555;
+    color: #9e9e9e;
     font-weight: 500;
     @media (max-width: 640px){
         font-size: 24px;
