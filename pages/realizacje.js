@@ -4,8 +4,6 @@ import Footer from "../components/footer/Footer";
 import { useEffect, useState } from "react";
 import axios from "../axios";
 import ContactButton from "../components/utils/ContactButton";
-import Hero2 from "../components/hero2/Hero2";
-import { RealizacjeContainer } from "../components/realizacjeStrona/RealizacjeElements";
 import Realizacje from "../components/realizacjeStrona/Realizacje";
 import styled from "styled-components";
 

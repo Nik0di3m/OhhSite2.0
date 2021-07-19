@@ -2,10 +2,7 @@ import Head from "next/head";
 import Menu from "../components/menu/Menu";
 import ContactForm from "../components/utils/ContactForm";
 import Footer from "../components/footer/Footer";
-import { useEffect, useState } from "react";
-import axios from "../axios";
 import styled from "styled-components";
-import Iframe from "react-iframe";
 
 const KontaktContainer = styled.div`
     display: flex;

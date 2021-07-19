@@ -1,16 +1,11 @@
 import Head from "next/head";
 import Menu from "../components/menu/Menu";
-import Hero from "../components/hero/Hero.js";
 import Ads from "../components/ads/Ads.js";
 import Realizacje from "../components/realizacje/Realizacje";
 import Faq from "../components/faq/Faq";
-import Testemonials from "../components/testemonials/Testemonials";
 import WhyUs from "../components/whyus/WhyUs";
 import Contact from "../components/contact/Contact";
 import Footer from "../components/footer/Footer";
-import { useEffect, useState } from "react";
-import axios from "../axios";
-import Wrapper from "../components/wrapper/Wrapper";
 import ContactButton from "../components/utils/ContactButton";
 import Hero2 from "../components/hero2/Hero2";
 
