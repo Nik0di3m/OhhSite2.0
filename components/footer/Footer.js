@@ -67,7 +67,7 @@ const Footer = () => {
                     </FooterItem>
                 </RightSideFooter>
                 <CompanyInfo>
-                    Clever Way Martyna Prybicho <br />
+                    Clever Way<br />
                     NIP: 9662148901
                 </CompanyInfo>
             </FooterContent>

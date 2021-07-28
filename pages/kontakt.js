@@ -50,7 +50,8 @@ export default function Kontakt() {
             <KontaktContainer>
                 <MapContainer>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9035.630606163399!2d23.03681178851776!3d53.14197909532666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ffb561f4be02b%3A0x8b6daed41d3f0b6!2sJesiennych%20Li%C5%9Bci%2081%2C%2016-070%20Poros%C5%82y!5e0!3m2!1spl!2spl!4v1624884523299!5m2!1spl!2spl"
+                        //src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9035.630606163399!2d23.03681178851776!3d53.14197909532666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ffb561f4be02b%3A0x8b6daed41d3f0b6!2sJesiennych%20Li%C5%9Bci%2081%2C%2016-070%20Poros%C5%82y!5e0!3m2!1spl!2spl!4v1624884523299!5m2!1spl!2spl"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1066.267337950498!2d23.14996617851107!3d53.13372413473109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ffc0fdae6f7d1%3A0xf7a51a7db9c4158f!2sLipowa%2018%2C%2015-429%20Bia%C5%82ystok!5e0!3m2!1spl!2spl!4v1627502577632!5m2!1spl!2spl"
                         style={{
                             border: 0,
                             width: "100%",
